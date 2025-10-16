@@ -14,6 +14,8 @@ use OpenAI\Testing\Responses\Concerns\FakeableForStreamedResponse;
 
 /**
  * @implements ResponseContract<array{event: string, data: array<string, mixed>}>
+ * @deprecated The Assistants API has been deprecated and will stop working on August 26, 2026.
+ * @see https://platform.openai.com/docs/assistants/migration
  */
 class ThreadRunStreamResponse implements ResponseContract
 {

@@ -7,6 +7,10 @@ use OpenAI\Responses\Threads\Runs\ThreadRunListResponse;
 use OpenAI\Responses\Threads\Runs\ThreadRunResponse;
 use OpenAI\Responses\Threads\Runs\ThreadRunStreamResponse;
 
+/**
+ * @deprecated The Assistants API has been deprecated and will stop working on August 26, 2026.
+ * @see https://platform.openai.com/docs/assistants/migration
+ */
 interface ThreadsRunsContract
 {
     /**

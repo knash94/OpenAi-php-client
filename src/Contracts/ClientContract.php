@@ -130,7 +130,7 @@ interface ClientContract
      * Build assistants that can call models and use tools to perform tasks.
      *
      * @see https://platform.openai.com/docs/api-reference/assistants
-     * @deprecated OpenAI has deprecated this endpoint and will stop working by August 26, 2026.
+     * @deprecated OpenAI has deprecated this endpoint and will stop working on August 26, 2026.
      * https://platform.openai.com/docs/guides/migrate-to-responses#assistants-api
      */
     public function assistants(): AssistantsContract;
@@ -139,7 +139,7 @@ interface ClientContract
      * Create threads that assistants can interact with.
      *
      * @see https://platform.openai.com/docs/api-reference/threads
-     * @deprecated OpenAI has deprecated this endpoint and will stop working by August 26, 2026.
+     * @deprecated OpenAI has deprecated this endpoint and will stop working on August 26, 2026.
      * https://platform.openai.com/docs/guides/migrate-to-responses#assistants-api
      */
     public function threads(): ThreadsContract;

@@ -6,6 +6,10 @@ use OpenAI\Responses\Assistants\AssistantDeleteResponse;
 use OpenAI\Responses\Assistants\AssistantListResponse;
 use OpenAI\Responses\Assistants\AssistantResponse;
 
+/**
+ * @deprecated The Assistants API has been deprecated and will stop working on August 26, 2026.
+ * @see https://platform.openai.com/docs/assistants/migration
+ */
 interface AssistantsContract
 {
     /**

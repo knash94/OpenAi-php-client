@@ -12,6 +12,8 @@ use OpenAI\Responses\Meta\MetaInformation;
 use OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
+ * @deprecated The Assistants API has been deprecated and will stop working on August 26, 2026.
+ * @see https://platform.openai.com/docs/assistants/migration
  * @implements ResponseContract<array{id: string, object: string, deleted: bool}>
  */
 final class AssistantDeleteResponse implements ResponseContract, ResponseHasMetaInformationContract

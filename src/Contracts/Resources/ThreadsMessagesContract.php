@@ -6,6 +6,10 @@ use OpenAI\Responses\Threads\Messages\ThreadMessageDeleteResponse;
 use OpenAI\Responses\Threads\Messages\ThreadMessageListResponse;
 use OpenAI\Responses\Threads\Messages\ThreadMessageResponse;
 
+/**
+ * @deprecated The Assistants API has been deprecated and will stop working on August 26, 2026.
+ * @see https://platform.openai.com/docs/assistants/migration
+ */
 interface ThreadsMessagesContract
 {
     /**

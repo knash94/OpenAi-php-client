@@ -13,6 +13,8 @@ use OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
  * @implements ResponseContract<array{id: string, object: string, deleted: bool}>
+ * @deprecated The Assistants API has been deprecated and will stop working on August 26, 2026.
+ * @see https://platform.openai.com/docs/assistants/migration
  */
 final class ThreadMessageDeleteResponse implements ResponseContract, ResponseHasMetaInformationContract
 {

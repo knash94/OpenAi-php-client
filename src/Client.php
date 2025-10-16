@@ -184,8 +184,10 @@ final class Client implements ClientContract
 
     /**
      * Build assistants that can call models and use tools to perform tasks.
-     *
      * @see https://platform.openai.com/docs/api-reference/assistants
+     *
+     * @deprecated The Assistants API has been deprecated and will stop working on August 26, 2026.
+     * @see https://platform.openai.com/docs/assistants/migration
      */
     public function assistants(): Assistants
     {

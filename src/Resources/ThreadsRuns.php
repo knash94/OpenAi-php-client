@@ -13,6 +13,10 @@ use OpenAI\Responses\Threads\Runs\ThreadRunStreamResponse;
 use OpenAI\ValueObjects\Transporter\Payload;
 use OpenAI\ValueObjects\Transporter\Response;
 
+/**
+ * @deprecated The Assistants API has been deprecated and will stop working on August 26, 2026.
+ * @see https://platform.openai.com/docs/assistants/migration
+ */
 final class ThreadsRuns implements ThreadsRunsContract
 {
     use Concerns\Streamable;
